@@ -1,0 +1,8 @@
+{% load static %}
+{% for x in  photos %}
+
+<h3> {{ x.title }} </h2>
+
+<img src="{{ x.image.url}}"  width="100" />
+
+{% endfor %}
